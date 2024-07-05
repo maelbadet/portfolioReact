@@ -1,0 +1,32 @@
+.footer {
+    background-color: #f8f8f8;
+    border-top: 1px solid #ccc;
+    margin-left: 5rem;
+    padding: 1rem;
+}
+
+.contact-title {
+    margin-bottom: 1rem;
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.dark .footer {
+    background-color: #333;
+    border-top: 1px solid #555;
+}
+
+.dark .contact-title,
+.dark .contact-info p {
+    color: #fff;
+}
